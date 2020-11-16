@@ -42,6 +42,12 @@ Input data
 
 {"id":10,"field1":"field1_datsa","field2":"field2_data","field3":"field3_data"}
 
+Consumer code added: 
+...
+c.v.k.K.KafkaProdConsumerApplication     : Started KafkaProdConsumerApplication in 1.539 seconds (JVM running for 2.075) /
+INFO 84274 --- [ntainer#0-0-C-1] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-myConsumerGroupID-1, groupId=myConsumerGroupID] Cluster ID: 2gwO_-L4Qr6ZtxWW4SiwGA /
+
+
 TODO: 
- Consumer app (in progress) 
+ Generalization with other datamodel using Gson for serialiazation and deserialization 
 
